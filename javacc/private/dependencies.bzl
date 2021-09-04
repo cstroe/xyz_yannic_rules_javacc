@@ -13,19 +13,11 @@
 # limitations under the License.
 
 dependencies = {
-    # Dependency of `io_bazel`.
-    "rules_pkg": {
-      "strip_prefix": "rules_pkg-0.2.4",
-      "urls": [
-          "https://github.com/bazelbuild/rules_pkg/archive/0.2.4.tar.gz",
-      ],
-      "sha256": "08ce92b9aea59ce6d592404de6cdfd7100c1140cdf4d4b9266942c20ec998b27",
-    },
     # Dependency of `org_javacc`.
     "io_bazel": {
-        "strip_prefix": "bazel-0.29.1",
+        "strip_prefix": "bazel-4.2.1",
         "urls": [
-            "https://github.com/bazelbuild/bazel/archive/0.29.1.tar.gz",
+            "https://github.com/bazelbuild/bazel/archive/4.2.1.tar.gz",
         ],
     },
     "org_javacc": {
