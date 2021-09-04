@@ -20,7 +20,7 @@ dependencies = {
           "https://github.com/bazelbuild/rules_pkg/archive/0.2.4.tar.gz",
       ],
       "sha256": "08ce92b9aea59ce6d592404de6cdfd7100c1140cdf4d4b9266942c20ec998b27",
-    }
+    },
     # Dependency of `org_javacc`.
     "io_bazel": {
         "strip_prefix": "bazel-0.29.1",
