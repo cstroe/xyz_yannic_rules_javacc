@@ -15,9 +15,9 @@
 dependencies = {
     # Dependency of `org_javacc`.
     "io_bazel": {
-        "strip_prefix": "bazel-0.28.1",
+        "strip_prefix": "bazel-0.29.1",
         "urls": [
-            "https://github.com/bazelbuild/bazel/archive/0.28.1.tar.gz",
+            "https://github.com/bazelbuild/bazel/archive/0.29.1.tar.gz",
         ],
     },
     "org_javacc": {
